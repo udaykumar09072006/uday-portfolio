@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgConsult" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05101a"/>
+      <stop offset="100%" stop-color="#02070c"/>
+    </linearGradient>
+    <radialGradient id="chatGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgConsult)"/>
+  <circle cx="400" cy="225" r="170" fill="url(#chatGlow)"/>
+  <!-- Chat Bubble 1 (User Symptom) -->
+  <g transform="translate(260, 140)">
+    <rect width="220" height="48" rx="12" fill="#0c1d2e" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1.5"/>
+    <circle cx="20" cy="24" r="8" fill="#38bdf8"/>
+    <rect x="36" y="16" width="130" height="6" rx="2" fill="#94a3b8"/>
+    <rect x="36" y="26" width="90" height="6" rx="2" fill="#64748b"/>
+  </g>
+  <!-- Chat Bubble 2 (Medical Bot Triage Guidance) -->
+  <g transform="translate(320, 210)">
+    <rect width="260" height="68" rx="12" fill="#08252a" stroke="#00ff88" stroke-opacity="0.4" stroke-width="1.5"/>
+    <circle cx="22" cy="24" r="8" fill="#00ff88"/>
+    <!-- Cross on Bot Avatar -->
+    <path d="M20,20 H24 V28 H20 Z M18,22 H26 V26 H18 Z" fill="#031610"/>
+    <rect x="38" y="16" width="170" height="6" rx="2" fill="#e2e8f0"/>
+    <rect x="38" y="27" width="195" height="6" rx="2" fill="#a7f3d0"/>
+    <rect x="38" y="38" width="130" height="6" rx="2" fill="#6ee7b7"/>
+  </g>
+  <!-- HUD Badges -->
+  <rect x="30" y="30" width="220" height="60" rx="8" fill="#061826" fill-opacity="0.85" stroke="#00f0ff" stroke-opacity="0.4"/>
+  <text x="45" y="52" fill="#00f0ff" font-family="monospace" font-size="12" font-weight="bold">MEDICAL CHAT PROJECT</text>
+  <text x="45" y="72" fill="#94a3b8" font-family="monospace" font-size="10">SYMPTOM TRIAGE &amp; CHATBOT</text>
+  <rect x="580" y="30" width="190" height="40" rx="6" fill="#061826" fill-opacity="0.85" stroke="#00ff88" stroke-opacity="0.4"/>
+  <circle cx="600" cy="50" r="4" fill="#00ff88"/>
+  <text x="615" y="54" fill="#00ff88" font-family="monospace" font-size="11" font-weight="bold">TRIAGE ONLINE</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgMedi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041214"/>
+      <stop offset="100%" stop-color="#020608"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgMedi)"/>
+  <!-- ECG / Pulse Line -->
+  <path d="M0,225 L240,225 L260,200 L280,260 L300,160 L320,280 L340,225 L800,225" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Medical Cross Badge Center -->
+  <g transform="translate(400, 225)">
+    <circle cx="0" cy="0" r="60" fill="#072023" stroke="#2dd4bf" stroke-width="2"/>
+    <path d="M-10,-28 H10 V-10 H28 V10 H10 V28 H-10 V10 H-28 V-10 H-10 Z" fill="#2dd4bf"/>
+  </g>
+  <!-- HUD Badges -->
+  <rect x="30" y="30" width="220" height="60" rx="8" fill="#06181b" fill-opacity="0.85" stroke="#2dd4bf" stroke-opacity="0.4"/>
+  <text x="45" y="52" fill="#2dd4bf" font-family="monospace" font-size="12" font-weight="bold">MEDICARE PLATFORM</text>
+  <text x="45" y="72" fill="#94a3b8" font-family="monospace" font-size="10">SMART HEALTHCARE &amp; RBAC</text>
+  <rect x="580" y="30" width="190" height="40" rx="6" fill="#06181b" fill-opacity="0.85" stroke="#2dd4bf" stroke-opacity="0.4"/>
+  <circle cx="600" cy="50" r="4" fill="#2dd4bf"/>
+  <text x="615" y="54" fill="#2dd4bf" font-family="monospace" font-size="11" font-weight="bold">CLINIC DISPATCH</text>
+</svg>
